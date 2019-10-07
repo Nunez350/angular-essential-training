@@ -1,6 +1,6 @@
 import { HttpEvent, HttpRequest, HttpResponse, HttpBackend } from '@angular/common/http';
 import { Observable, Observer } from 'rxjs';
-
+  
 export class MockXHRBackend implements HttpBackend {
   private mediaItems = [
     {
